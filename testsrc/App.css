@@ -1,0 +1,91 @@
+#root {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.center-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.cartProcess {
+  width: 100%;
+  float: left;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.cartProcess li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.stepCir {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: #807e7e;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepInfo {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.cartProcess li.active .stepCir {
+  background: #1075e2;
+}
+
+.cartProcess li.completed .stepCir {
+  background: #08b051;
+}
+
+.stepContent {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
+  font-size: 65px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.stepBtn {
+  width: 100%;
+  text-align: center;
+}
+
+.progressArea {
+  width: 100%;
+  position: relative;
+}
+
+.progressBar {
+  width: 95%;
+  float: left;
+  height: 5px;
+  background: #ddd;
+  position: absolute;
+  top: 25px;
+  z-index: -1;
+}
+
+.bar {
+  height: 100%;
+  background: #08b051;
+  transition: all 0.55s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

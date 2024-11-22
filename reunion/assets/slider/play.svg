@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="117px" viewBox="0 0 118 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icons/Play button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.3%" y="-7.3%" width="108.6%" height="115.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0980392157   0 0 0 0 0.0980392157   0 0 0 0 0.0980392157  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="38" cy="38" r="38"></circle>
+        <filter x="-30.9%" y="-28.3%" width="161.8%" height="161.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0980392157   0 0 0 0 0.0980392157   0 0 0 0 0.0980392157  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-540.000000, -3814.000000)">
+            <g id="Winners-Video" transform="translate(72.000000, 3598.000000)">
+                <g id="Video/Desktop/Large" filter="url(#filter-1)" transform="translate(47.000000, 0.000000)">
+                    <g id="Elements/Play-Button" transform="translate(442.000000, 232.000000)">
+                        <g id="icons/Play-button">
+                            <g id="Play-button" transform="translate(0.000000, 0.500000)">
+                                <g id="Circle">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                </g>
+                                <g id="Icons/Play/Play-black-16-" transform="translate(30.000000, 30.500000)" fill="#191919">
+                                    <g id="Icons/Play/Play-black-32">
+                                        <g id="Group">
+                                            <g fill-rule="nonzero" id="Path">
+                                                <path d="M13.275,7.58500002 L4.27500001,1.585 C4.12029947,1.49568361 3.92970055,1.49568361 3.77500001,1.585 C3.61608533,1.66462011 3.51138646,1.82262023 3.50000001,2.00000001 L3.50000001,14 C3.50049177,14.1842969 3.60232642,14.3533809 3.76500001,14.44 C3.92413826,14.521712 4.1148063,14.5121786 4.26500001,14.415 L13.265,8.41500003 C13.4032148,8.32211916 13.4861183,8.1665238 13.4861183,8.00000003 C13.4861183,7.83347625 13.4032148,7.67788089 13.265,7.58500002 L13.275,7.58500002 Z"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

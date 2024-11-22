@@ -1,0 +1,158 @@
+/* ------------------------------------------------------------ *\
+   Event Section 
+\* ------------------------------------------------------------ */
+.eventSection {
+  width: 100%;
+  float: left;
+  background: #f9f7f3;
+  padding: 0 0 100px;
+  position: relative;
+}
+
+.eventSection h1 {
+  width: 100%;
+  float: left;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  color: #000000;
+  padding-bottom: 50px;
+}
+
+.eventArea {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.eventSection .eventSlide,
+.eventSection .eventSlide iframe {
+  width: 100%;
+  float: left;
+  min-height: 450px;
+  height: 100%;
+}
+
+.eventSection .slick-arrow {
+  width: 56px;
+  height: 76px;
+  border: 1px solid #bfbfbf;
+  border-radius: 100px;
+  background: #fff;
+  position: absolute;
+  bottom: -25px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.eventSection .slick-arrow:before {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #191919;
+  border-right: 1px solid #191919;
+  border-width: 1px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -4px;
+  margin-left: -7px;
+}
+
+.eventSection .slick-prev:before {
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+  margin-left: -3px;
+}
+
+/*** slick dots ***/
+.eventSection .slick-dots {
+  position: absolute;
+  bottom: -50px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.eventSection .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.eventSection .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 100%;
+  cursor: pointer;
+  position: relative;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.eventSection .slick-dots li button:hover,
+.eventSection .slick-dots li button:focus {
+  outline: none;
+}
+
+.eventSection .slick-dots li button:hover:before,
+.eventSection .slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+.eventSection .slick-dots li button:before {
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  content: "";
+  text-align: center;
+  opacity: 0.25;
+  background: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.eventSection .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: black;
+}
+
+.slick-next {
+  right: 0px;
+}
+
+.slick-prev {
+  left: 0px;
+}
+
+@media all and (max-width: 768px) {
+  .eventSection h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+}

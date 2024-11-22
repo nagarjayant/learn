@@ -1,0 +1,7 @@
+@import "~@ilc-technology/cefcom-react-header/build/styles.css";
+
+.headerSec {
+  width: 100%;
+  position: absolute;
+  inset: 0;
+}

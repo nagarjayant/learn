@@ -1,0 +1,156 @@
+/* ------------------------------------------------------------ *\
+    Fonts
+\* ------------------------------------------------------------ */
+
+@font-face {
+  font-family: "EFCircular";
+  src: url("https://efdigitalmarketing.github.io/campaign-assets/campBase/EFcircular/EFCircular-Book.eot");
+  src: url("https://efdigitalmarketing.github.io/campaign-assets/campBase/EFcircular/EFCircular-Book.eot?#iefix") format("embedded-opentype"), url("https://efdigitalmarketing.github.io/campaign-assets/campBase/EFcircular/EFCircular-Book.woff") format("woff"), url("https://efdigitalmarketing.github.io/campaign-assets/campBase/EFcircular/EFCircular-Book.woff2") format("woff2");
+  font-weight: 450;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EFCircular";
+  src: url("https://efdigitalmarketing.github.io/campaign-assets/campBase/EFcircular/EFCircular-Medium.eot");
+  src: url("https://efdigitalmarketing.github.io/campaign-assets/campBase/EFcircular/EFCircular-Medium.eot?#iefix") format("embedded-opentype"), url("https://efdigitalmarketing.github.io/campaign-assets/campBase/EFcircular/EFCircular-Medium.woff") format("woff"), url("https://efdigitalmarketing.github.io/campaign-assets/campBase/EFcircular/EFCircular-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+}
+
+*:focus {
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+img {
+  display: inline-block;
+  height: auto;
+  vertical-align: middle;
+}
+
+img,
+iframe {
+  border: 0 none;
+}
+
+img,
+iframe,
+video,
+audio,
+object {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #fff !important;
+  letter-spacing: 0.25 !important;
+  line-height: 1.6 !important;
+  overflow-x: hidden;
+}
+
+body,
+p,
+div,
+span,
+i,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+bold,
+strong,
+a,
+b,
+button,
+.button,
+input,
+select,
+textarea,
+option {
+  font-family: EFCircular, Helvetica, Open Sans, Gill Sans MT, Gill Sans, Corbel, Arial, "sans-serif";
+}
+
+.button,
+button {
+  width: auto;
+  text-align: center;
+  padding: 12px 24px;
+  border-radius: 100px;
+  display: inline-block;
+  letter-spacing: 0.5px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.95, 1);
+  transition-duration: 0.3s;
+  line-height: 1.57;
+}
+
+/* ------------------------------------------------------------ *\
+ container wrapper class
+\* ------------------------------------------------------------ */
+
+.center-1200 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.center-960 {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 1025px) and (max-width: 1201px) {
+  .center-1200 {
+    max-width: 960px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .center-1200 {
+    max-width: initial;
+    float: left;
+    padding: 0 20px;
+  }
+}
+
+@media all and (max-width: 970px) {
+  .center-960 {
+    max-width: initial;
+    float: left;
+    padding: 0 20px;
+  }
+}

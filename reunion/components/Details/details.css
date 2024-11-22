@@ -1,0 +1,38 @@
+/* ------------------------------------------------------------ *\
+   Detail Section 
+\* ------------------------------------------------------------ */
+.detailSection {
+  width: 100%;
+  float: left;
+  background: #f9f7f3;
+  padding: 70px 0;
+}
+
+.detailSection p {
+  width: 100%;
+  float: left;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #000000;
+}
+
+.detailSection p span {
+  background: linear-gradient(89.89deg, #ff8900 56.63%, #ff01a9 92.82%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+@media all and (max-width: 768px) {
+  .detailSection p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+    text-align: left;
+  }
+}

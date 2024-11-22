@@ -1,0 +1,6 @@
+@import "~@ilc-technology/cefcom-react-footer/build/styles.css";
+
+.footerSec {
+  width: 100%;
+  float: left;
+}
