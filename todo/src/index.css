@@ -1,0 +1,87 @@
+.add-list {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.add-list input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.add-list input:focus {
+  border: 1px solid #000;
+}
+
+.add-list button {
+  padding: 10px;
+  border-radius: 100px;
+  outline: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.taskList {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.taskList li {
+  width: auto;
+  min-width: 20%;
+  float: left;
+  padding: 30px;
+  background: #feffae;
+  text-align: center;
+}
+
+.taskList li.taskDone {
+  background: #d6ffae;
+}
+
+.taskAction {
+  width: 100%;
+  float: left;
+  padding-top: 10px;
+}
+
+.taskAction button {
+  width: auto;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 10px;
+  float: left;
+  border: 1px;
+  cursor: pointer;
+}
+
+.doneBtn {
+  background: green;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.deleteBtn {
+  background: red;
+  color: #fff;
+}
+
+.taskCount {
+  width: 100%;
+  float: left;
+  padding: 20px 0;
+}
+
+.taskCount span {
+  width: auto;
+  margin: 0 30px;
+}
